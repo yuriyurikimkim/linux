@@ -1,1 +1,47 @@
-yedam yedam
+[GIT]
+
+ 
+
+폴더 제작(D드라이브?)_gitExam
+
+ 
+
+d:
+
+cd gitExam
+
+ 
+
+git init (깃 올릴수있는 최소한의 경로)
+
+ 
+
+메모장 하나 만들기(gitExam에)_yedam.txt
+
+ 
+
+git add yedam.txt
+
+ 
+
+git config --global user.email "aa@aa.aa"
+
+git config --global user.name "대충 이름"
+
+ 
+
+git commit -m 'first'
+
+ 
+
+git remote add origin https://github.com/yuriyurikimkim/linux.git
+
+ 
+
+(remote :원격저장소)
+
+ 
+
+git remote -v
+
+(깃 주소와 같으면 제대로 올라간 것)
